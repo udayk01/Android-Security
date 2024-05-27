@@ -90,3 +90,33 @@ It is an utility program for retrieving various kinds of information related to 
 ```adb pull /data/app/~~8UAxlYP3QSnP8_ixuFq8cA==/com.example.exapp-8kV48cJw7jnpMcuRekg67Q==/base.apk```
 
 ![image](https://github.com/udayk01/Android-Security/assets/52235763/eb4cba3a-3aa7-4908-879a-3af2cfafca4f)
+
+```echo "This is some file" > somefile.txt```
+
+![image](https://github.com/udayk01/Android-Security/assets/52235763/a8125b15-a290-4053-af90-e1e4bcc6886c)
+
+```adb push somefile.txt /sdcard/```
+
+![image](https://github.com/udayk01/Android-Security/assets/52235763/205ff3a5-0f16-4c2f-b46b-5b8df7e394bb)
+
+![image](https://github.com/udayk01/Android-Security/assets/52235763/45f5a965-4bf6-47e5-a189-35f92164b9e8)
+
+> As we can see its pushed inside.
+
+### Find Application UID
+
+> Method 1
+
+21:51 Reference
+
+![image](https://github.com/udayk01/Android-Security/assets/52235763/4c3fd496-2a28-447f-8783-fdb22b7bc92e)
+
+> Method 2
+
+```pm list packages -U```
+
+![image](https://github.com/udayk01/Android-Security/assets/52235763/0be9bf58-0ba3-420c-9de5-2299e71e9c49)
+
+ ```pm list packages -U -3```
+
+![image](https://github.com/udayk01/Android-Security/assets/52235763/63d89c3e-902b-4fee-b1b8-e41409a026b2)
