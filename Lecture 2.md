@@ -58,3 +58,35 @@ It is an utility program for retrieving various kinds of information related to 
 ```pm list packages```
 
 ![image](https://github.com/udayk01/Android-Security/assets/52235763/4f5c6b3a-f049-49f3-84c2-9245b8655e59)
+
+``` pm list packages | grep youtube```
+
+![image](https://github.com/udayk01/Android-Security/assets/52235763/495634a1-d3d2-4436-9104-1b4623b82e2b)
+
+> pm list packages has various options to configure the output. -3 option is used to filter and display only show third party packages. -s option is used to filter and display only system packages.
+
+``` pm list packages -3```
+
+![image](https://github.com/udayk01/Android-Security/assets/52235763/1a8112f2-18eb-40a0-a3cb-0c0dce656e2e)
+
+> To check the Process ID (PID) of the currently running applications, we use the ps -A command.
+
+``` ps -A | grep example ```
+
+![image](https://github.com/udayk01/Android-Security/assets/52235763/73287e7c-a731-47b4-a8d4-d80942145476)
+
+> pm path is used to get the path of the installed APK file.
+
+```pm path com.example.exapp```
+
+![image](https://github.com/udayk01/Android-Security/assets/52235763/3e6f9dae-71ec-4c66-b936-612fed832685)
+
+```exit```
+
+![image](https://github.com/udayk01/Android-Security/assets/52235763/2e3bb6c9-9f06-436a-94f1-7c164e53a72b)
+
+![image](https://github.com/udayk01/Android-Security/assets/52235763/b242a76d-d782-4b72-9ac4-fef9550fbd78)
+
+```adb pull /data/app/~~8UAxlYP3QSnP8_ixuFq8cA==/com.example.exapp-8kV48cJw7jnpMcuRekg67Q==/base.apk```
+
+![image](https://github.com/udayk01/Android-Security/assets/52235763/eb4cba3a-3aa7-4908-879a-3af2cfafca4f)
