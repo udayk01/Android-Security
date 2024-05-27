@@ -25,3 +25,21 @@ command to install adb as a system package.
 
 After the PATH environment variable is set appropriately, we verify the program execution by typing adb in
 the terminal.
+
+![Screenshot 2024-05-27 100829](https://github.com/udayk01/Android-Security/assets/52235763/b402578b-56bb-423c-aaac-90d537fd1517)
+
+![Screenshot 2024-05-27 100948](https://github.com/udayk01/Android-Security/assets/52235763/a1fbbd86-b131-4114-a013-dadca72cbcb0)
+
+> Android Virtual Device (AVD) is started by typing the following command.
+
+![Screenshot 2024-05-27 101422](https://github.com/udayk01/Android-Security/assets/52235763/fa384335-832a-4199-ab2c-ff916be75275)
+
+![Screenshot 2024-05-27 101708](https://github.com/udayk01/Android-Security/assets/52235763/90ce52c0-1a93-4a3d-99c8-88227787a609)
+
+### Basic ADB Commands
+
+```adb devices```
+
+![Screenshot 2024-05-27 102046](https://github.com/udayk01/Android-Security/assets/52235763/f29f8e34-bed4-4362-bbe7-9cc7d9c54c0e)
+
+```adb -s emulator-5554 shell```
