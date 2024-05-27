@@ -2,29 +2,21 @@
 
 It is a versatile command-line tool that lets you communicate with a device.
 
-The adb command facilitates a variety of device actions, such as installing and debugging apps. adb provides
-access to a Unix shell that you can use to run a variety of commands on a device.
+The adb command facilitates a variety of device actions, such as installing and debugging apps. adb provides access to a Unix shell that you can use to run a variety of commands on a device.
 
 It is a client-server program that includes three components:
 
-• A client, which sends commands. The client runs on your development machine. You can invoke a
-client from a command-line terminal by issuing an adb command.
+• A client, which sends commands. The client runs on your development machine. You can invoke a client from a command-line terminal by issuing an adb command.
 
-• A daemon (adbd), which runs commands on a device. The daemon runs as a background process on
-each device. The daemon on the Android device connects with the server on the host PC over USB or
-TCP, which connects to the client that is used by the end-user over TCP.
+• A daemon (adbd), which runs commands on a device. The daemon runs as a background process on each device. The daemon on the Android device connects with the server on the host PC over USB or TCP, which connects to the client that is used by the end-user over TCP.
 
-• A server, which manages communication between the client and the daemon. The server runs as a
-background process on your development machine. The default port number on which the adb server
-runs is 5037.
+• A server, which manages communication between the client and the daemon. The server runs as a background process on your development machine. The default port number on which the adb server runs is 5037.
 
 ADB is included in the Android SDK Platform Tools package, which is installed at ${ANDROID_HOME}/platform-tools/.
 
-If the Android SDK is not installed in the system, we can use the sudo apt install android-tools-adb
-command to install adb as a system package.
+If the Android SDK is not installed in the system, we can use the sudo apt install android-tools-adb command to install adb as a system package.
 
-After the PATH environment variable is set appropriately, we verify the program execution by typing adb in
-the terminal.
+After the PATH environment variable is set appropriately, we verify the program execution by typing adb in the terminal.
 
 ![Screenshot 2024-05-27 100829](https://github.com/udayk01/Android-Security/assets/52235763/b402578b-56bb-423c-aaac-90d537fd1517)
 
@@ -43,3 +35,26 @@ the terminal.
 ![Screenshot 2024-05-27 102046](https://github.com/udayk01/Android-Security/assets/52235763/f29f8e34-bed4-4362-bbe7-9cc7d9c54c0e)
 
 ```adb -s emulator-5554 shell```
+
+![image](https://github.com/udayk01/Android-Security/assets/52235763/e4ac55dd-38d2-47b8-979f-4f91270719dd)
+
+```id```
+
+![image](https://github.com/udayk01/Android-Security/assets/52235763/39e8b909-c796-407a-871f-3c1ec3b98912)
+
+```ls```
+
+![image](https://github.com/udayk01/Android-Security/assets/52235763/ed115990-8d3f-46b9-8664-79e31b1d077d)
+
+```cd sdcard```
+```ls```
+
+![image](https://github.com/udayk01/Android-Security/assets/52235763/a620c142-92a4-4e45-b6d8-3b200f4bac46)
+
+### pm (Package Manager) 
+
+It is an utility program for retrieving various kinds of information related to the application packages that are currently installed on the device.
+
+```pm list packages```
+
+![image](https://github.com/udayk01/Android-Security/assets/52235763/4f5c6b3a-f049-49f3-84c2-9245b8655e59)
