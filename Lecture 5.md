@@ -2,7 +2,7 @@
 
 1. APK Tool
    
-![image](https://github.com/ananthan05/Android-Security/assets/140697378/d95e8520-5fff-4c22-8641-f6af80a05fc0)
+![image](https://github.com/udayk01/Android-Security/assets/52235763/fd6e2918-9eb9-4e4d-ad7f-350571245e6e)
 
 
 Decomiplation: Trying to reach to Source Code From Executable File. Here .dex means Dalvik Executable Code Format
@@ -11,15 +11,15 @@ Decomiplation: Trying to reach to Source Code From Executable File. Here .dex me
 apktool d .\app-debug.apk -o test
 ```
 
-![image](https://github.com/ananthan05/Android-Security/assets/140697378/a65b714b-c183-4e72-879d-9a2900f119d2)
+![image](https://github.com/udayk01/Android-Security/assets/52235763/a9c96c89-4f11-4362-95d2-b6bb748e349c)
 
 We observe that the testsample directory does not contain the classes.dex and resources.arsc files previously present in the ZIP file. We observe that there is a apktool.yml file created in the directory. We also observe that there is another AndroidManifest.xml in a new directory called original. We also observe that there is a new directory called smali which was decompiled from the classes.dex file present in the original APK ZIP archive.
 
-![image](https://github.com/ananthan05/Android-Security/assets/140697378/3c21832e-57a0-4f43-aafd-67080026c3b2)
+![image](https://github.com/udayk01/Android-Security/assets/52235763/41099236-96b4-43bf-9fcb-5f0ef94808b8)
 
-![image](https://github.com/ananthan05/Android-Security/assets/140697378/86d74ceb-f61b-4d8b-bce9-b8891bf253ad)
+![image](https://github.com/udayk01/Android-Security/assets/52235763/44e8c371-2e2a-40c7-a9d7-26d6e082c844)
 
-![image](https://github.com/ananthan05/Android-Security/assets/140697378/b6cdbe8f-af0e-4e7d-8058-902b81b8eccf)
+![image](https://github.com/udayk01/Android-Security/assets/52235763/edf271e7-7c43-420e-b8e9-bbef8b174a8b)
 
 ## Now Jadx Tool
 
